@@ -1,6 +1,3 @@
-/**
- * @author Sarthak Jain <sarthak240498@gmail.com>
- */
 (function ($) {
     "use strict";
       $('.sakura-falling').sakura('start', {
@@ -30,7 +27,7 @@ function pauseAudio() {
 };
 
 // Set the date we're counting down to
-var countDownDate = new Date("Feb 14, 2021 00:00:00").getTime();
+var countDownDate = new Date("Dec 3, 2023 17:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -55,7 +52,6 @@ var x = setInterval(function() {
         clearInterval(x);
         document.getElementById("time").innerHTML = "Wedding Completed !!";
         // document.getElementById("time").innerHTML = " See The best Captured Moments ";
-        // document.getElementById("time").href = "https://photos.app.goo.gl/Wn9PRK7FMpxBKF5s6/";
         // document.getElementById("time").target = "_blank";
     }
 }, 1000);
@@ -92,9 +88,9 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 14th Feb, 2021', styles);
+console.log('\n\n%c SAVE THE DATE: 3rd Dec, 2023', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Sarthak Jain', styles1, styles2);
+console.log('%cYour presence is requested!%c\n\nRegards: Sushant Mishra', styles1, styles2);
 
 console.log(
     `%c शादी में जलूल जलूल आना होगा \n\n`,
